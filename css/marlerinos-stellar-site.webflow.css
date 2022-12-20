@@ -16,8 +16,8 @@
 }
 
 .image {
-	position: static;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: 15%;
 	margin: -27px auto;
 	padding-top: 0px;
@@ -112,6 +112,8 @@
 	margin-left: auto;
 	padding-top: 0px;
 	border-radius: 0px;
+	display: flex;
+	flex-direction: column;
 }
 
 .background-video-4 {
@@ -151,6 +153,8 @@
 }
 
 .heading {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 40px;
 	background-color: rgba(82, 91, 255, 0);
 	font-family: Montserrat, sans-serif;
@@ -159,6 +163,8 @@
 }
 
 .header {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 40px;
 	background-color: rgba(82, 91, 255, 0);
 	font-family: Montserrat, sans-serif;
@@ -167,14 +173,16 @@
 }
 
 .headings {
-	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
 	background-color: rgba(82, 91, 255, 0);
 	font-family: Montserrat, sans-serif;
 	color: #eff5ff;
-	font-weight: 700;
 }
 
 .title {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 40px;
 	background-color: rgba(82, 91, 255, 0);
 	font-family: Montserrat, sans-serif;
@@ -286,8 +294,8 @@
 		margin-top: 11px;
 	}
 	.heading {
-		display: flex;
-		flex-direction: column;
+		/* display: flex;
+		flex-direction: column; */
 		margin-top: 125px;
 		margin-bottom: 0px;
 		font-size: 26px;
@@ -295,8 +303,8 @@
 		margin-left: 125px;
 	}
 	.header {
-		display: flex;
-		flex-direction: column;
+		/* display: flex;
+		flex-direction: column; */
 		margin-top: 25px;
 		margin-bottom: 0px;
 		font-size: 26px;
@@ -304,8 +312,8 @@
 		margin-left: 130px;
 	}
 	.headings {
-		display: flex;
-		flex-direction: column;
+		/* display: flex;
+		flex-direction: column; */
 		margin-top: 50px;
 		margin-left: 110px;
 		margin-bottom: 0px;
@@ -314,8 +322,8 @@
 		position: absolute;
 	}
 	.title {
-		display: flex;
-		flex-direction: column;
+		/* display: flex;
+		flex-direction: column; */
 		margin-top: 171px;
 		margin-bottom: 0px;
 		font-size: 26px;
