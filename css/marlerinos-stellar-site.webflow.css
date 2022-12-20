@@ -343,16 +343,32 @@
 
 @media screen and (max-width: 767px) {
 	.image {
-		width: 160px;
+		width: 200px;
 		margin-bottom: -32px;
 	}
 
 	.button {
-		top: 46%;
-		overflow: hidden;
-		height: 60px;
-		margin-top: 0px;
-		padding-top: 0px;
+		
+		
+	}
+
+	.heading {
+		font-size: 23px;
+		margin-left: 30px;
+	}
+
+	.header {
+		font-size: 23px;
+		margin-left: 30px;
+	}
+	.headings {
+		font-size: 23px;
+		top: 109px;
+		left: 410px;
+	}
+	.title {
+		font-size: 23px;
+		margin-right: 35px;
 	}
 
 	.image-4 {
@@ -371,12 +387,13 @@
 	}
 
 	.div-block-3 {
-		display: none;
+		display: ;
 	}
 
 	.image-5 {
-		top: 55%;
+		top: 1300px;
 		bottom: auto;
+		
 	}
 }
 
@@ -388,13 +405,11 @@
 	}
 
 	.button {
-		position: static;
-		top: 45%;
-		width: 240px;
-		height: 50px;
-		margin-top: 40px;
-		padding-top: 0px;
-		font-size: 22px;
+		position: absolute;
+		top: 200px;
+		width: 175px;
+		height: 40px;
+		font-size: 18px;
 	}
 
 	.image-4 {
@@ -409,15 +424,28 @@
 		margin-top: 0px;
 	}
 
-	.heading {
-		width: 50%;
-		margin-top: 0px;
-		margin-bottom: 15px;
-		font-size: 15px;
-		line-height: 130%;
-		text-align: center;
+	.headings {
+		font-size: 12px;
+    top: 346px;
+    left: 270px;
 	}
-
+	.heading {
+		font-size: 12px;
+    margin-left: 90px;
+		margin-top: -15px;
+	}
+	.header {
+		position: absolute;
+    left: 66px;
+    top: 360px;
+    font-size: 12px;
+	}
+	.title {
+		font-size: 12px;
+		position: absolute;
+    top: 213px;
+    left: 275px;
+	}
 	.div-block-3 {
 		position: static;
 		top: 35%;
@@ -447,10 +475,9 @@
 	}
 
 	.image-5 {
-		position: static;
-		top: 52%;
-		display: block;
+		position: absolute;
+		top: 700px;
 		width: 220px;
-		margin-top: 15px;
+		
 	}
 }
