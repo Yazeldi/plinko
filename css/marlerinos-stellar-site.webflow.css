@@ -304,8 +304,9 @@
 		margin-left: 130px;
 	}
 	.headings {
-		top: 106px;
-		left: 498px;
+		position: absolute;
+		margin-top: 50px;
+		margin-left: 110px;
 		margin-bottom: 0px;
 		font-size: 26px;
 		font-weight: 600;
@@ -341,15 +342,96 @@
 	}
 }
 
+
+
+
+@media screen and (max-width: 912px) {
+	.heading {
+		font-size: 25px;
+		margin-left: 80px;
+	}
+
+	.header {
+		font-size: 25px;
+		margin-left: 80px;
+	}
+	.headings {
+		font-size: 25px;
+		top: 75px;
+		left: 340px;
+	}
+	.title {
+		font-size: 25px;
+		margin-right: 105px;
+	}
+	.image-5 {
+		top: 1140px;
+	}
+	.button {
+		top: 480px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.heading {
+		font-size: 25px;
+		margin-left: 50px;
+	}
+
+	.header {
+		font-size: 25px;
+		margin-left: 50px;
+	}
+	.headings {
+		font-size: 25px;
+		top: 75px;
+		left: 305px;
+	}
+	.title {
+		font-size: 25px;
+		margin-right: 62px;
+	}
+	.image-5 {
+		top: 1000px;
+	}
+	.button {
+		top: 400px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		font-size: 23px;
+		margin-left: 30px;
+	}
+	.headings {
+		font-size: 23px;
+		top: 76px;
+		left: 300px;
+	}
+	.title {
+		font-size: 23px;
+		margin-right: 35px;
+	}
+	.heading {
+		font-size: 23px;
+		margin-left: 30px;
+	}
+	.image-5 {
+		top: 900px;
+	}
+	.button {
+		top: 350px;
+		width: 300px;
+	}
+
+
+}
+
 @media screen and (max-width: 767px) {
 	.image {
 		width: 200px;
 		margin-bottom: -32px;
-	}
-
-	.button {
-		
-		
 	}
 
 	.heading {
@@ -386,18 +468,13 @@
 		margin-top: 8px;
 	}
 
-	.div-block-3 {
-		display: ;
-	}
-
 	.image-5 {
 		top: 1300px;
 		bottom: auto;
-		
 	}
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 575px) {
 	.image {
 		width: 35%;
 		margin-top: -11px;
@@ -426,25 +503,24 @@
 
 	.headings {
 		font-size: 12px;
-    top: 346px;
-    left: 270px;
+		padding-top: 235px;
+		left: 192px;
 	}
 	.heading {
 		font-size: 12px;
-    margin-left: 90px;
-		margin-top: -15px;
+		margin-left: 125px;
+		margin-top: 0px;
 	}
 	.header {
 		position: absolute;
-    left: 66px;
-    top: 360px;
-    font-size: 12px;
+		left: 103px;
+		margin-top: 35px;
+		font-size: 12px;
 	}
 	.title {
 		font-size: 12px;
-		position: absolute;
-    top: 213px;
-    left: 275px;
+		margin-top: 15px;
+		margin-left: 298px;
 	}
 	.div-block-3 {
 		position: static;
@@ -478,6 +554,142 @@
 		position: absolute;
 		top: 700px;
 		width: 220px;
-		
 	}
 }
+
+@media screen and (max-width: 540px) {
+	.headings {
+		padding-top: 227px;
+		left: 180px;
+	}
+	.heading {
+		margin-left: 110px;
+	}
+	.header {
+		left: 87px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-top: 10px;
+		margin-left: 285px;
+	}
+	.image-5 {
+		top: 650px;
+	}
+
+.button {
+	margin-top: 320px;
+}
+}
+
+@media screen and (max-width: 414px) {
+	.headings {
+		padding-top: 194px;
+		left: 115px;
+	}
+	.heading {
+		margin-left: 40px;
+	}
+	.header {
+		left: 18px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-top: 10px;
+		margin-left: 225px;
+	}
+	.image-5 {
+		top: 750px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.headings {
+		padding-top: 187px;
+		left: 105px;
+	}
+	.heading {
+		margin-left: 40px;
+	}
+	.header {
+		left: 18px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-top: 10px;
+		margin-left: 215px;
+	}
+	.image-5 {
+		top: 700px;
+	}
+	.button {
+		top: 200px;
+	}
+}
+
+@media screen and (max-width: 393px) {
+	.headings {
+		padding-top: 187px;
+		left: 105px;
+	}
+	.heading {
+		margin-left: 40px;
+	}
+	.header {
+		left: 18px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-top: 10px;
+		margin-left: 215px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.headings {
+		padding-top: 182px;
+		left: 95px;
+	}
+	.heading {
+		margin-left: 40px;
+	}
+	.header {
+		left: 18px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-top: 10px;
+		margin-left: 203px;
+	}
+	.image-5 {
+		top: 590px;
+	}
+	.button {
+		top: 110px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.headings {
+		padding-top: 178px;
+		left: 77px;
+	}
+	.heading {
+		margin-left: 40px;
+	}
+	.header {
+		left: 18px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-top: 10px;
+		margin-left: 185px;
+	}
+	.image-5 {
+		top: 650px;
+	}
+	.button {
+		top: 130px;
+	}
+}
+
