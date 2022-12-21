@@ -639,6 +639,49 @@
 	}
 }
 
+@media screen and (max-width: 400px) {
+	.image {
+		height: 19%;
+		width: 45%;
+	}
+	.headings {
+		font-size: 15px;
+		left: 201px;
+    padding: 0;
+    margin: 0;
+    top: 385px;
+	}
+	.heading {
+		font-size: 15px;
+		margin: 0;
+    left: 27px;
+		top: 385px;
+    position: absolute
+	}
+	.header {
+		font-size: 15px;
+		left: 27px;
+    margin: 0;
+    top: 430px;
+	}
+	.title {
+		font-size: 15px;
+		margin: 0;
+    padding: 0;
+    left: 199px;
+    position: absolute;
+    top: 430px;
+	}
+	.button {
+		width: 310px;
+		height: 60px;
+		top: 173px;
+	}
+	.image-5 {
+		margin-top: 66%;
+	}
+}
+
 @media screen and (max-width: 393px) {
 	
 	.image {
