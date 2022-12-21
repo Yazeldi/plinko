@@ -249,6 +249,7 @@
 	top: auto;
 	right: 0%;
 	bottom: 5%;
+	display: inline-block;
 	width: 330px;
 	max-width: none;
 	margin-right: auto;
