@@ -246,9 +246,9 @@
 .image-5 {
 	position: absolute;
 	left: 0%;
-	top: 90%;
+	top: auto;
 	right: 0%;
-	/* bottom: 0%; */
+	bottom: 0;
 	width: 330px;
 	max-width: none;
 	margin-right: auto;
@@ -377,9 +377,9 @@
 		width: 500px;
 		height: 100px;
 	}
-	.image-5 {
+	/* .image-5 {
 		width: 100%;
-	}
+	} */
 }
 
 @media screen and (max-width: 820px) {
@@ -612,9 +612,9 @@
 		height: 60px;
 		top: 260px;
 	}
-	.image-5 {
+	/* .image-5 {
 		width: 100%;
-	}
+	} */
 }
 
 @media screen and (max-width: 412px) {
