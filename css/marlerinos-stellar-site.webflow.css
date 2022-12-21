@@ -595,6 +595,45 @@
 	}
 }
 
+@media screen and (max-width: 525px) {
+	.headings {
+		font-size: 18px;
+		left: 290px;
+    padding: 0;
+    margin: 0;
+    top: 365px;
+	}
+	.heading {
+		font-size: 18px;
+		margin: 0;
+    left: 50px;
+		top: 365px;
+    position: absolute
+	}
+	.header {
+		font-size: 18px;
+		left: 50px;
+    margin: 0;
+    top: 410px;
+	}
+	.title {
+		font-size: 18px;
+		margin: 0;
+    padding: 0;
+    left: 290px;
+    position: absolute;
+    top: 410px;
+	}
+	.button {
+		width: 270px;
+		height: 60px;
+		top: 200px;
+	}
+	.image-5 {
+		margin-top: 75%;
+	}
+}
+
 @media screen and (max-width: 414px) {
 	.image {
 		height: 19%;
