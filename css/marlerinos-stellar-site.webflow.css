@@ -246,9 +246,9 @@
 .image-5 {
 	position: absolute;
 	left: 0%;
-	top: auto;
+	top: 90%;
 	right: 0%;
-	bottom: 5%;
+	/* bottom: 5%; */
 	display: inline-block;
 	width: 330px;
 	max-width: none;
