@@ -19,7 +19,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 15%;
-	margin: -27px auto;
+	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -379,7 +379,8 @@
 		height: 100px;
 	}
 	.image-5 {
-		margin-top: 90%;
+		margin-top: 77%;
+		width: 100%;
 	}
 }
 
@@ -409,12 +410,16 @@
 		height: 90px;
 	}
 	.image-5 {
-		margin-top: 90%;
+		margin-top: 75%;
+		width: 100%;
 	}
 	
 }
 
 @media screen and (max-width: 768px) {
+	.image {
+		height: 13%;
+	}
 	.headings {
 		top: 80px;
 	}
@@ -431,7 +436,7 @@
 		top: 350px;
 	}
 	.image-5 {
-		margin-top: 80%;
+		margin-top: 70%;
 	}
 }
 
@@ -629,13 +634,16 @@
 		top: 260px;
 	}
 	.image-5 {
-		margin-top: 100%;
+		margin-top: 95%;
 	}
 }
 
 @media screen and (max-width: 412px) {
 	.title {
 		left: 210px;
+	}
+	.image-5 {
+		margin-top: 100%;
 	}
 }
 
@@ -678,7 +686,7 @@
 		top: 173px;
 	}
 	.image-5 {
-		margin-top: 66%;
+		margin-top: 64%;
 	}
 }
 
@@ -712,6 +720,9 @@
 		height: 60px;
 		top: 220px;
 	}
+	.image-5 {
+		margin-top: 100%;
+	}
 }
 
 @media screen and (max-width: 390px) {
@@ -725,7 +736,7 @@
 
 @media screen and (max-width: 375px) {
 	.image {
-		height: 12%;
+		height: 16%;
 	}
 	.headings {
 		font-size: 13px;
@@ -762,7 +773,7 @@
 		height: 55px;
 	}
 	.image-5 {
-		margin-top: 70%;
+		margin-top: 64%;
 	}
 }
 
@@ -797,5 +808,42 @@
 	}
 	.image-5 {
 		margin-top: 88%;
+	}
+}
+
+@media screen and (max-width: 280px) {
+	.image {
+		height: 14%;
+		width: 40%;
+	}
+	.headings {
+		font-size: 10px;
+		left: 133px;
+    top: 360px;
+	}
+	.heading {
+		font-size: 10px;
+    left: 20px;
+		top: 360px;
+	}
+	.header {
+		font-size: 10px;
+		left: 20px;
+    top: 385px;
+	}
+	.title {
+		font-size: 10px;
+    left: 131px;
+    top: 385px;
+	}
+	.button {
+		
+		height: 40px;
+		top: 500px;
+		width: 70%;
+	}
+	.image-5 {
+		margin-top: 88%;
+		width: 100%;
 	}
 }
