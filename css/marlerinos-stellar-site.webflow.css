@@ -216,7 +216,7 @@
 
 .image-5 {
 	position: absolute;
-  bottom: 120px;
+  bottom: 65px;
   left: 50%;
   transform: translateX(-50%);
   width: 20%;
@@ -235,7 +235,7 @@
 
 	.button {
 		top: auto;
-		bottom: 32%;
+		bottom: 23%;
 		width: 50%;
 		height: 9%;
 		margin-top: -145px;
@@ -289,7 +289,7 @@
 	}
 
 	.image-5 {
-		width: 50%;
+		width: 70%;
 	}
 }
 
@@ -332,6 +332,7 @@
 	.image {
 		width: 45%;
 		margin-top: -11px;
+		padding-top: 20px;
 	}
 
 	.button {
@@ -367,7 +368,7 @@
 
 	.div-block-3 {
 		position: absolute;
-		top: 43%;
+		top: 50%;
 		display: block;
 		width: 98%;
 		height: auto;
@@ -386,10 +387,9 @@
 	}
 
 	.div-block-6 {
-		position: relative;
 		width: 330px;
 		height: 200px;
-		margin-top: 25px;
+		margin-top: 30px;
 	}
 
 	/* .image-5 {
@@ -406,7 +406,7 @@
 		/* margin-bottom: px; */
 	}
 	.div-block-3 {
-		top: 46%;
+		top: 52%;
 	}
 	.button {
 		font-size: 20px; 
