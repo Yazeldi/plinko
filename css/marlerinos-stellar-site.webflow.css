@@ -235,7 +235,7 @@
 
 	.button {
 		top: auto;
-		bottom: 25%;
+		bottom: 29%;
 		width: 50%;
 		height: 9%;
 		margin-top: -145px;
@@ -368,7 +368,7 @@
 
 	.div-block-3 {
 		position: absolute;
-		top: 50%;
+		top: 48%;
 		display: block;
 		width: 98%;
 		height: auto;
@@ -406,7 +406,7 @@
 		/* margin-bottom: px; */
 	}
 	.div-block-3 {
-		top: 52%;
+		top: 50%;
 	}
 	.button {
 		font-size: 20px; 
